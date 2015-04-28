@@ -15,6 +15,12 @@ projects[dkan_datastore][download][branch] = 7.x-1.x
 includes[dkan_dataset_make] = https://raw.githubusercontent.com/NuCivic/dkan_dataset/7.x-1.x/dkan_dataset.make
 includes[dkan_datastore_make] = https://raw.githubusercontent.com/NuCivic/dkan_datastore/7.x-1.x/dkan_datastore.make
 
+projects[recline][subdir] = contrib
+projects[recline][download][type] = git
+projects[recline][download][url] = https://github.com/NuCivic/recline.git
+projects[recline][download][branch] = nucivic_dkan_446_make_ajax_call_timeout_configurable
+projects[recline][download][revision] = ef247194f1f24c5be747ca4e2a0d9d25da7d7dbb
+
 ; Contrib Modules
 projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][subdir] = contrib
